@@ -1,0 +1,1 @@
+<view class="section-sticky _div data-v-67adc2a6"><view class="content _div data-v-67adc2a6" id="top"><view class="banner _div data-v-67adc2a6"><view class="_p data-v-67adc2a6">营商环境</view></view><view class="tab-content _div data-v-67adc2a6"><business-score vue-id="358648ec-1" tab-data="{{tabData}}" class="data-v-67adc2a6" bind:__l="__l"></business-score></view></view></view>

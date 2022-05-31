@@ -1,0 +1,613 @@
+
+//三.政务服务
+//一长条样式（综合评价-好评）
+.tab-box-one-good {
+  border-radius: 0.10667rem;
+  margin-top: 28rpx;
+  width: 692rpx;
+  height: 120rpx;
+  margin-left: 29rpx;
+  box-shadow: 0rpx 0rpx 12rpx rgba(129, 129, 129, 0.25);
+  position: relative;
+  //float: left;
+  .tab-box-one-good-box {
+    width: 692rpx;
+    height: 148rpx;
+    float: left;
+  }
+  .label {
+    font-size: 24rpx;
+    color: #1c1c1c;
+    //border: 1rpx solid red;
+    float: left;
+    width: 150rpx;
+    height: 120rpx;
+    margin-left: 110rpx;
+    //border: 1rpx solid red;
+    //text-align: center;
+    line-height: 120rpx;
+    position: relative;
+  }
+  .label:before {
+
+    position: absolute;
+    content: '';
+    width: 64rpx;
+    height: 64rpx;
+    background: url("../../static/assets/images/h5/goodScore.png") no-repeat;
+    top: 25rpx;
+    left: -80rpx;
+    background-size: 64rpx 64rpx;
+  }
+  .starShine {
+    //border: 1rpx solid red;
+    margin-top: 45rpx;
+    float: left;
+    width: 170rpx;
+    height: 70rpx;
+    margin-left: 120rpx;
+  }
+  /deep/.van-rate__icon {
+    display: block;
+    width: 1em;
+    color: #c8c9cc;
+    font-size: 30rpx;
+  }
+  .con {
+    //border: 1rpx solid green;
+    float: right;
+    width: 130rpx;
+    height: 80rpx;
+    margin-top: 25rpx;
+  }
+  .num{
+    //margin-top: -5rpx;
+    //border: 1rpx solid red;
+    float: left;
+    font-size: 50rpx;
+    font-family: 'DIN-Medium';
+    color: #353535;
+  }
+  .unit {
+    display: block;
+    margin-bottom: 0;
+    height: 80rpx;
+    line-height: 80rpx;
+    //margin-top: 15rpx;
+    font-size: 0.32rem;
+    color: #353535;
+    float: left;
+    //border:1rpx solid red;
+  }
+}
+//红蓝黄三个色（综合评价）
+.tab-box-one-good-score {
+  margin-top: 25rpx;
+  //width: 693rpx;
+  height: 148rpx;
+  float:left;
+  //border: 1rpx solid red;
+  margin-left: 28rpx;
+
+  .first-title-box{
+    position: relative;
+    width: 210rpx;
+    float:left;
+    height: 148rpx;
+    //border: 2rpx solid green;
+    float:left;
+    &:first-child{
+      float:left;
+      margin-right: 31rpx;
+    }
+    //&:nth-child(2){
+    //  margin-right: 31rpx;
+    //}
+    &.first{
+      background-color: #edf9f5;
+      border-top: 4rpx solid #09ab80;
+      //background-image: url("../../static/assets/images/h5/provided-bg.png");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      float:left;
+      /*border-top: 5rpx solid #46C09F;*/
+      margin-right: 31rpx;
+    }
+    &.second{
+      border-top: 4rpx solid #1a79cb;
+      background-color: #f1f6fb;
+      //background-image: url("../../static/assets/images/h5/related-bg.png");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      float:left;
+      /*border-top: 5rpx solid #1A79C8;*/
+    }
+    &.third{
+      border-top: 4rpx solid #f0993c;
+      background-color: #fcf7f2;
+      //background-image: url("../../static/assets/images/h5/pay-bg.png");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      float:left;
+      /*border-top: 5rpx solid #F0993C;*/
+      margin-left: 31rpx;
+    }
+    &.fourth{
+      background-color: #edf9f5;
+      border-top: 4rpx solid #09ab80;
+      //background-image: url("../../static/assets/images/h5/provided-bg.png");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      float:left;
+      /*border-top: 5rpx solid #46C09F;*/
+      margin-right: 31rpx;
+    }
+    .label{
+      //padding-left: 40rpx;
+      margin-top: 30rpx;
+      font-size: 24rpx;
+      color: #1c1c1c;
+      text-align: center;
+      //float: left;
+    }
+    .num{
+      //padding-left: 40rpx;
+      //float: left;
+      //border: 1rpx solid red;
+      text-align: center;
+      font-size: 50rpx;
+      font-family: 'DIN-Medium';
+      color: #353535;
+      //margin-right: 40rpx;
+    }
+    .unit {
+      font-size: 0.32rem;
+      color: #353535;
+    }
+    .con {
+      //border: 1rpx solid green;
+      height: 50rpx;
+      padding-bottom: 34rpx;
+    }
+  }
+}
+//卡片样式（多渠道收集评价）
+.tab-box-one-line-card {
+  //margin-top: 30rpx;
+  //height: 50rpx;
+  //border: 1rpx solid red;
+  height: 670rpx;
+  //margin-bottom: 20rpx;
+  margin-left: 30rpx;
+  .first-title-box{
+    margin-top: 17rpx;
+    width: 337rpx;
+    height: 150rpx;
+    float:left;
+    margin-right: 17rpx;
+    border-radius: 5rpx;
+    box-shadow: 0rpx 0rpx 10rpx rgba(129, 129, 129, 0.25);
+    //position: relative;
+    &:first-child,
+    &:nth-child(2),
+    &:nth-child(3),
+    &:nth-child(4),
+    &:nth-child(5),
+    &:nth-child(6),
+    &:nth-child(7),
+    &:nth-child(8) {
+      position: relative;
+    }
+    &:first-child::before,
+    &:nth-child(2)::before,
+    &:nth-child(3)::before,
+    &:nth-child(4)::before,
+    &:nth-child(5)::before,
+    &:nth-child(6)::before,
+    &:nth-child(7)::before,
+    &:nth-child(8)::before{
+      position: absolute;
+      content: '';
+      width: 60rpx;
+      height: 60rpx;
+      top: 45rpx;
+      left: 28rpx;
+    }
+    &:first-child::before {
+      background: url("../../static/assets/images/h5/evaluation1.png") no-repeat;
+      background-size: 60rpx 60rpx;
+    }
+    &:nth-child(2)::before {
+      background: url("../../static/assets/images/h5/evaluation2.png") no-repeat;
+      background-size: 60rpx 60rpx;
+    }
+    &:nth-child(3)::before {
+      background: url("../../static/assets/images/h5/evaluation3.png") no-repeat;
+      background-size: 60rpx 60rpx;
+    }
+    &:nth-child(4)::before {
+      background: url("../../static/assets/images/h5/evaluation4.png") no-repeat;
+      background-size: 60rpx 60rpx;
+    }
+    &:nth-child(5)::before {
+      background: url("../../static/assets/images/h5/evaluation5.png") no-repeat;
+      background-size: 60rpx 60rpx;
+    }
+    &:nth-child(6)::before {
+      background: url("../../static/assets/images/h5/evaluation6.png") no-repeat;
+      background-size: 60rpx 60rpx;
+    }
+    &:nth-child(7)::before {
+      background: url("../../static/assets/images/h5/evaluation7.png") no-repeat;
+      background-size: 60rpx 60rpx;
+    }
+    &:nth-child(8)::before {
+      background: url("../../static/assets/images/h5/evaluation8.png") no-repeat;
+      background-size: 60rpx 60rpx;
+    }
+    .label{
+      margin-top: 35rpx;
+      font-size: 24rpx;
+      color: #1c1c1c;
+      margin-left: 110rpx;
+    }
+    .num {
+      font-size: 50rpx;
+      font-family: 'DIN-Medium';
+      color: #353535;
+      margin-left: 110rpx;
+    }
+    .unit {
+      font-size: 0.32rem;
+      color: #353535;
+    }
+
+  }
+  .clickColor {
+    background-color: #1a79c9;
+    .label {
+      color: #fff !important;
+    }
+  }
+}
+//蓝色长条部分（多维度分析评价）
+.tab-box-one-line-blue {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  display: flex;
+  width: 700rpx;
+  //border: 1rpx solid red;
+  height: 100rpx;
+  margin-left: 24rpx;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+  .first-title-box{
+    flex: 0 0 124rpx;
+    //width: 116rpx;
+    height: 100rpx;
+    background-color: #e7f2ff;
+    float:left;
+    line-height: 50rpx;
+    text-align: center;
+    margin-right: 1rpx;
+    &:last-child{
+      margin-top: 1rpx;
+    }
+    .label{
+      font-size: 22rpx;
+      color: #1c70c8;
+    }
+
+  }
+  .clickColor {
+    background-color: #1a79c9;
+    .label {
+      color: #fff !important;
+    }
+  }
+}
+//表格的样式
+.table-content {
+  width: 100%;
+  //height: 530rpx;
+  //border: 1rpx solid red;
+  .bar-table {
+    //border: 1rpx solid red;
+    width: 700rpx;
+    //height: 400rpx;
+    float: left;
+    text-align: center;
+    margin-left: 30rpx;
+    margin-top: 35rpx;
+    border: 1rpx solid #e8e8e8;
+    border-spacing: 0;
+    .title {
+      height: 57rpx;
+      width: 100%;
+      line-height: 2;
+    }
+    thead {
+      background-color: #dfe8f1;
+      font-weight: normal;
+      color: #1c70c8;
+      font-size: 22rpx;
+      width: 100%;
+      font-family: 'PingFang-SC-Medium';
+      display: table;
+      table-layout: fixed;
+      height: 57rpx;
+      line-height: 2;
+      tr {
+        width: 100%;
+        height: 57rpx;
+        table-layout: fixed;
+        display: table;
+        line-height: 2;
+        th{
+          text-align: center;
+          /*white-space: pre;*/
+          /*border: 1rpx solid red;*/
+        }
+        th:first-child{
+          text-align: center;
+          width: 16%;
+          border-right: 1rpx solid #e8e8e8;
+        }
+        th:nth-child(2) {
+          width: 16%;
+          border-right: 1rpx solid #e8e8e8;
+        }
+        th:nth-child(3) {
+          width: 16%;
+          border-right: 1rpx solid #e8e8e8;
+        }
+        th:nth-child(4) {
+          width: 32%;
+          border-right: 1rpx solid #e8e8e8;
+        }
+      }
+      th {
+        font-weight: 300;
+      }
+      /*.little{*/
+      /*width: 12%!important;*/
+      /*}*/
+    }
+    tbody {
+      font-size: 22rpx;
+      //border: 1rpx solid red;
+      color: #000;
+      height: 393rpx;
+      display: block;
+      font-family: 'PingFang-SC-Medium';
+      tr {
+        line-height: 2;
+        height: 57rpx;
+        &:nth-child(odd) {
+          background-color: #f7f9fb;
+        }
+        &:nth-child(even) {
+          background-color: #fff;
+        }
+      }
+    }
+    thead, tbody tr {
+      display: table;
+      width: 100%;
+      table-layout: fixed;
+      td:first-child {
+        width: 20%;
+        border-right: 1rpx solid #e8e8e8;
+        overflow: hidden;
+        text-overflow:ellipsis;
+        white-space: nowrap;
+
+      }
+      td:nth-child(2) {
+        width: 20%;
+        border-right: 1rpx solid #e8e8e8;
+      }
+      td:nth-child(3) {
+        width: 20%;
+        border-right: 1rpx solid #e8e8e8;
+      }
+      td:nth-child(4) {
+        width: 40%;
+        border-right: 1rpx solid #e8e8e8;
+      }
+    }
+  }
+}
+//时间样式
+.timeTop {
+  margin-top: 25rpx !important;
+}
+
+.timeMoth {
+  z-index: 4;
+  margin-top: -10rpx;
+  margin-left: 25rpx;
+  width: 200rpx;
+  float: left;
+  //border: 1rpx solid red;
+  ///deep/.van-cell__title, /deep/.van-cell__value {
+  //
+  //  width: 150rpx;
+  //  //border: 1rpx solid red;
+  //}
+  /deep/ .van-dropdown-menu__title::after {
+    position: absolute;
+    top: 50%;
+    right: -0.08rem;
+    margin-top: -0.1rem;
+    border: 0.07rem solid;
+    border-color: transparent transparent #dcdee0 #dcdee0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    opacity: .8;
+    content: '';
+  }
+  /deep/.van-dropdown-menu {
+    width: 200rpx;
+  }
+  /deep/ .van-dropdown-menu__bar{
+    color:#1c70c8;
+    width:172rpx;
+    height: 36rpx;
+    font-size: 28rpx;
+    font-family: DIN-Medium;
+    box-shadow:none;
+    background-color: #1a79c8;
+    border-radius: 30rpx;
+  }
+  /deep/.van-ellipsis{
+	  width:300rpx;
+    height: 40rpx;
+    display: block;
+    line-height: 40rpx;
+    font-size: 24rpx;
+    color: #fff;
+	padding-left:26rpx;
+  }
+  /deep/.van-dropdown-menu__title--active{
+    color:#1c70c8;
+  }
+  /deep/.van-dropdown-menu__title{
+    color:#1c70c8;
+    font-size: 28rpx;
+
+  }
+  /deep/.van-dropdown-menu__title::after{
+    color:#1a79c8;
+  }
+  /deep/.van-dropdown-item__option--active{
+    color:#1a79c8;
+    display: inline-table;
+  }
+  /deep/.van-popup--top{
+    width:168rpx;
+    margin-left: 0.38rem;
+    background-color: rgba(129,129,129,0.25);
+  }
+  /deep/.van-dropdown-item__content {
+    border-radius: 5rpx;
+    height: 352rpx;
+  }
+  /deep/.van-icon-success::before {
+    content: '';
+  }
+  /deep/van-icon::before {
+    display: inline-block;
+  }
+  /deep/.van-dropdown-item__option{
+    text-align: center;
+  }
+  /deep/.van-dropdown-item__icon{
+    display: none;
+  }
+  /deep/ .van-cell{
+      height: 0.66667rem;
+      font-size: 0.32rem;
+      //border: 1rpx solid red;
+      width: 168rpx;
+    //height: 50rpx;
+    //font-size: 24rpx;
+  }
+}
+.LocationArea {
+  //border: 1rpx solid green;
+  //height: 20rpx;
+  margin-top: -36rpx;
+  margin-right: 330rpx;
+  float: right;
+  //margin-bottom: 20rpx;
+  width: 200rpx;
+  /deep/ .van-dropdown-menu__title::after {
+    position: absolute;
+    top: 50%;
+    right: -0.08rem;
+    margin-top: -0.15rem;
+    border: 0.07rem solid;
+    border-color: transparent transparent #dcdee0 #dcdee0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    opacity: .8;
+    content: '';
+  }
+  /deep/ .van-dropdown-menu__item {
+    justify-content: left;
+  }
+  /deep/ .van-dropdown-menu__bar{
+    color:#1c70c8;
+    width:147rpx;
+    //height: 50rpx;
+    font-size: 28rpx;
+    font-family: DIN-Medium;
+    box-shadow:none;
+  }
+  /deep/.van-ellipsis{
+	  width:300rpx;
+    height: 40rpx;
+    display: block;
+    line-height: 28rpx;
+    //font-size: 24rpx;
+
+  }
+  /deep/.van-dropdown-menu__title--active{
+    color:#1c70c8;
+  }
+  /deep/.van-dropdown-menu__title{
+    color:#1c70c8;
+    font-size: 28rpx;
+
+  }
+  /deep/.van-dropdown-menu__title::after{
+    color:#1a79c8;
+  }
+  /deep/.van-dropdown-item__option--active{
+    color:#1a79c8;
+    display: inline-table;
+  }
+  /deep/.van-popup--top{
+    width:147rpx;
+    margin-left: 2.57333rem;
+    //margin-left: 118rpx;
+    background-color: rgba(129,129,129,0.25);
+  }
+  /deep/.van-dropdown-item__content {
+    border-radius: 5rpx;
+    height: 352rpx;
+  }
+  /deep/.van-icon-success::before {
+    content: '';
+  }
+  /deep/van-icon::before {
+    display: inline-block;
+  }
+  /deep/.van-dropdown-item__option{
+    text-align: center;
+  }
+  /deep/.van-dropdown-item__icon{
+    display: none;
+  }
+  /deep/ .van-cell{
+    height: 50rpx;
+    font-size: 24rpx;
+  }
+}
+.timeMothSecond {
+  /deep/.van-dropdown-item__content {
+    border-radius: 0.06667rem !important;
+    height: 1.30333rem !important;
+  }
+}
+.onLoading {
+  //border: 1rpx solid red;
+  text-align: center;
+  margin-top: 300rpx;
+  /deep/ .van-loading__text{
+    font-size: 30rpx;
+  }
+}

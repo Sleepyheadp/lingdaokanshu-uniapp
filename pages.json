@@ -1,0 +1,196 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/index",
+			"name":"login",
+			"pass": "true",
+			"meta":{
+				"title": "登录"
+			},
+			"style": {
+				"navigationBarTitleText": "登录",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"name":"home",
+			"pass": "true",
+			"meta":{
+				"title": "领导看数"
+			},
+			"style": {
+				"navigationBarTitleText": "领导看数",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},		
+		
+		{
+			"path":"pages/macro/index",
+			"name":"macro",
+			"style": {
+				"navigationBarTitleText": "宏观经济",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path":"pages/industrial/index",
+			"style": {
+				"navigationBarTitleText": "产业发展",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path":"pages/investment/index",
+			"style": {
+				"navigationBarTitleText": "招商引资",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path":"pages/technology/index",
+			"style": {
+				"navigationBarTitleText": "科技发展",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path":"pages/business/index",
+			"style": {
+				"navigationBarTitleText": "营商环境",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path":"pages/traffic/index",
+			"style": {
+				"navigationBarTitleText": "交通运输",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path":"pages/Rural-revitalization/index",
+			"style": {
+				"navigationBarTitleText": "乡村振兴",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path":"pages/livelihood/index",
+			"style": {
+				"navigationBarTitleText": "民生服务",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path":"pages/society/index",
+			"style": {
+				"navigationBarTitleText": "社会保障",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path":"pages/cultural/index",
+			"style": {
+				"navigationBarTitleText": "文化旅游",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path":"pages/ecology/index",
+			"style": {
+				"navigationBarTitleText": "生态环保",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path":"pages/governmentService/index",
+			"style": {
+				"navigationBarTitleText": "政务服务",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+
+		// {
+		// 	"path": "pages/logsitics/index",
+		// 	"name":"amap",
+		// 	"pass": "true",
+		// 	"meta":{
+		// 		"title": "地图"
+		// 	},
+		// 	"style": {
+		// 		"navigationBarTitleText": "地图",
+		// 		"app-plus": {
+		// 			"titleNView": false
+		// 		}
+		// 	}
+		// }
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"subPackages":[
+		{
+			"root":"mypackage",
+			"pages":[{
+				"path":"pages/logsitics/index",
+				"name":"amap2",
+				"style":{
+					// "navigationBarTitleText":"地图",
+					// "enablePullDownRefresh":false
+					"navigationBarTitleText": "地图",
+					"app-plus": {
+						"titleNView": false
+					}
+				}
+			}]
+		}
+		// {
+		// 	"root":"pages1",
+		// 	"pages":[{
+		// 		"path":"business/index",
+		// 		"style": {
+		// 			"navigationBarTitleText": "营商环境",
+		// 			"app-plus": {
+		// 				"titleNView": false
+		// 			}
+		// 		}
+		// 	}]
+			
+		// },
+	]
+}

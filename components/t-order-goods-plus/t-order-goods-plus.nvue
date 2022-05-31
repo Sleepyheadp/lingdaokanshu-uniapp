@@ -1,0 +1,155 @@
+<template>
+	<view class="width-100 flex flex-direction ">
+		<view class="width-690 flex flex-row justify-between align-center">
+			<text class="text-32 text-333">订单号：3232323232</text>
+			<text class="text-28 text-999">{{ orderStatus }}</text>
+		</view>
+		<view class="goods solid-bottom" @click="toDetail()">
+			<image src="../../static/imgs/goods-img.webp" mode="" class="avatar-140 margin-right-xs radius-10"></image>
+			<view class="flex flex-sub height-140 justify-between">
+				<view class="flex-sub flex justify-between">
+					<text class="width-70 text-333 text-28 text-600">{{ params.name }}</text>
+					<text class="text-24 text-999">￥ {{ params.price | getPrice }}</text>
+				</view>
+				
+				<view class="flex flex-row align-center flex-sub justify-between">
+					<text class="cu-tag bg-f0 round" style="margin-top: 4rpx;">{{ params.sku }}</text>
+					<text class="text-24 text-999">￥ {{ params.number }}</text>
+				</view>
+			</view>
+		</view>
+		<view class="goods-sum">
+			<text class="text-24 text-999">共 {{ params.number }}件商品 合计：</text>
+			<text class="text-32 text-333 text-700">{{ sum | getPrice }}</text>
+		</view>
+		
+		<view class="width-690 flex flex-row align-center justify-end padding-top-sm">
+			<view class="btn-wrapper solid">
+				<text class="button line-red">查看详情</text>
+			</view>
+			
+			<view class="btn-wrapper solid">
+				<text class="button line-red">申请售后</text>
+			</view>
+			
+			<view class="btn-wrapper bg-red">
+				<text class="button text-white">确认收货</text>
+			</view>
+		</view>
+	</view>
+</template>
+
+<script>
+	export default {
+		name:"t-order-goods",
+		props: {
+			params: {
+				type: Object,
+				default: ()=>{}
+			}
+		},
+		data() {
+			return {
+				
+			};
+		},
+		mounted() {
+		},
+		computed: {
+			sum: function(){
+				let _sum = this.params.price * this.params.number
+				
+				return _sum
+			},
+			
+			orderStatus: function(){
+				let val = ''
+				let e = this.params.status
+				switch(e){
+					case 1:
+						val = '待付款'
+						break
+					case 2:
+						val = '待发货'
+						break
+					case 3:
+						val = '待收货'
+						break
+					case 4:
+						val = '已收货'
+						break
+					case 5:
+					case '06':
+					case '07':
+						val = '售后'
+						break
+					case 0:
+						val = '全部'
+						break
+				}
+				return val
+			}
+		},
+		methods: {
+			toDetail(){
+				uni.navigateTo({
+					url: '/pages/user/user-order-detail?id=' + this.params.id + '&status=' + this.params.status
+				})
+			}
+		}
+	}
+</script>
+
+<style>
+	
+	.goods {
+		width: 690rpx;
+		display: flex;
+		align-items: center;
+		flex-direction: row;
+		padding: 28rpx 0;
+	}
+	
+	.btn-wrapper {
+		width: 160rpx;
+		height: 60rpx;
+		border-radius: 888px;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		margin-left: 18rpx;
+	}
+	
+	.goods-sum {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		flex-direction: row;
+		width: 690rpx;
+		border-top-width: 1rpx;
+		border-top-color: rgba(0,0,0,0.1);
+		padding-top: 18rpx;
+	}
+	
+	.button {
+		font-size: 24rpx;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	
+	.width-70 {
+		width: 484rpx;
+	}
+	
+	.cu-tag {
+		padding: 4rpx 24rpx;
+		font-size: 24rpx;
+	}
+	
+	.solid {
+		border-width: 1rpx;
+		border-color: #e54d42;
+	}
+</style>

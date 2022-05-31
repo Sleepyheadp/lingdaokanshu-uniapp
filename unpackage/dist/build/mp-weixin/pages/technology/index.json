@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "科技发展",
+  "usingComponents": {
+    "project-invest": "/pages/technology/service",
+    "vehicle-vessel": "/pages/technology/output",
+    "facility": "/pages/technology/investment",
+    "transport-capacity": "/pages/technology/industry"
+  }
+}

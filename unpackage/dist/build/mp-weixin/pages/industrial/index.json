@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "产业发展",
+  "usingComponents": {
+    "agriculture-inf": "/pages/industrial/agricultureG"
+  }
+}

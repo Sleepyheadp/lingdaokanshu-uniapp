@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "宏观经济",
+  "usingComponents": {
+    "efficiency-supervision": "/pages/macro/efficiency-supervision",
+    "agriculture-inf": "/pages/macro/agricultureG"
+  }
+}

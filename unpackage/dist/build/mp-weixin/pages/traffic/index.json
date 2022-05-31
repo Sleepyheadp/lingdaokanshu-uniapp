@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "交通运输",
+  "usingComponents": {
+    "project-invest": "/pages/traffic/project-invest",
+    "vehicle-vessel": "/pages/traffic/vehicle-vessel",
+    "facility": "/pages/traffic/facility",
+    "transport-capacity": "/pages/traffic/transport-capacity"
+  }
+}

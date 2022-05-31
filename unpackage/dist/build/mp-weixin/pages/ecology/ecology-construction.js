@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/ecology/ecology-construction"],{3505:function(t,a,n){"use strict";n.r(a);var e=n("7655"),r=n("d91f");for(var c in r)"default"!==c&&function(t){n.d(a,t,(function(){return r[t]}))}(c);n("c4bb");var i,o=n("f0c5"),u=Object(o["a"])(r["default"],e["b"],e["c"],!1,null,"0d28c25d",null,!1,e["a"],i);a["default"]=u.exports},7655:function(t,a,n){"use strict";var e;n.d(a,"b",(function(){return r})),n.d(a,"c",(function(){return c})),n.d(a,"a",(function(){return e}));var r=function(){var t=this,a=t.$createElement,e=(t._self._c,t.__map(t.tabData.data[0].data.environment.detail,(function(a,e){var r=t.__get_orig(a),c=a.label.length>6?a.label.slice(0,6):null,i=a.label.length>6?a.label.slice(6):null,o=t.mapIndex===e?n("6d9b"):null;return{$orig:r,g0:c,g1:i,m0:o}})));t.$mp.data=Object.assign({},{$root:{l0:e}})},c=[]},"974d":function(t,a,n){},c4bb:function(t,a,n){"use strict";var e=n("974d"),r=n.n(e);r.a},d185:function(t,a,n){"use strict";Object.defineProperty(a,"__esModule",{value:!0}),a.default=void 0;var e=n("a3cf"),r={name:"ecology-construction",props:{tabData:{type:Object}},data:function(){return{mapIndex:"0"}},watch:{"tabData.data":function(t,a){this.initWin()}},methods:{initWin:function(){var t=this;this.$nextTick((function(){t.mapIndex=0,(0,e.drawJmHotMap)("mapChart",t.tabData.data[0].data.environment.chart[0][0])}))},switchMapTab:function(t){this.mapIndex=t;var a=this.tabData.data[0].data.environment.chart[t][0];(0,e.drawJmHotMap)("mapChart",a)}}};a.default=r},d91f:function(t,a,n){"use strict";n.r(a);var e=n("d185"),r=n.n(e);for(var c in e)"default"!==c&&function(t){n.d(a,t,(function(){return e[t]}))}(c);a["default"]=r.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/ecology/ecology-construction-create-component',
+    {
+        'pages/ecology/ecology-construction-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("3505"))
+        })
+    },
+    [['pages/ecology/ecology-construction-create-component']]
+]);

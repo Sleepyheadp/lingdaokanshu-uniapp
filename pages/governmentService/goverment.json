@@ -1,0 +1,925 @@
+{
+	"code": 200,
+	"data": {
+		"left": [{
+			"data": [{
+				"data": [{
+					"date": "2021-09-30 00:00:00",
+					"hasDialog": false,
+					"legends": ["窗口办理", "网上办理", "邮寄办理"],
+					"series": [{
+						"data": [{
+							"hasDialog": false,
+							"indexId": "5100",
+							"name": "窗口办理",
+							"rate": "97.29",
+							"unit": "件",
+							"value": "876624"
+						}, {
+							"hasDialog": false,
+							"indexId": "5101",
+							"name": "网上办理",
+							"rate": "2.66",
+							"unit": "件",
+							"value": "23961"
+						}, {
+							"hasDialog": false,
+							"indexId": "5102",
+							"name": "邮寄办理",
+							"rate": "0.05",
+							"unit": "件",
+							"value": "3"
+						}],
+						"hasDialog": false
+					}],
+					"single": false,
+					"style": "{width:600,legendPadding:{a:[0,0,0,4],b:[0,0,0,18]},legendRight:\"100px\",legendTop:\"22%\",radius:['40%','70%'],titleX:\"20%\",titleY:\"35%\",legendGap:16,center:['25%','50%'],titleShow:false,chartTitle:\"2501;亿元;10.5%\",legendValueColor:\"#72f3f5\",legendLeft:'40%',colorList:['#3a8be6','#60f290','#ffcd47'],titleValue:false}",
+					"title": "办理方式",
+					"titleId": "5021",
+					"type": "pie"
+				}, {
+					"date": "2021-09-30 00:00:00",
+					"hasDialog": false,
+					"legends": ["承诺件", "即办件"],
+					"series": [{
+						"data": [{
+							"hasDialog": false,
+							"indexId": "5103",
+							"name": "承诺件",
+							"rate": "10.05",
+							"unit": "件",
+							"value": "90577"
+						}, {
+							"hasDialog": false,
+							"indexId": "5104",
+							"name": "即办件",
+							"rate": "89.95",
+							"unit": "件",
+							"value": "810431"
+						}],
+						"hasDialog": false
+					}],
+					"single": false,
+					"style": "{width:600,legendLeft:'40%',legendRight:\"100px\",legendTop:\"35%\",radius:['40%','70%'],titleX:\"20%\",titleY:\"35%\",legendGap:16,center:['25%','50%'],titleShow:false,chartTitle:\"2501;亿元;10.5%\",legendValueColor:\"#72f3f5\",titleValue:false,areaStyleColor:['#ffcd47','transparent'],colorList:['#3a8be6','#19e7ff']}",
+					"title": "办件类型",
+					"titleId": "5022",
+					"type": "pie"
+				}, {
+					"date": "2021-05-01 00:00:00",
+					"hasDialog": false,
+					"legends": ["办件办结量", "办件受理量"],
+					"series": [{
+						"data": ["1089", "1100", "1111", "1122", "1133", "1144", "1155",
+							"1166", "1177", "1188", "1199", "1210"
+						],
+						"hasDialog": false,
+						"name": "办件办结量",
+						"type": "bar",
+						"unit": "件"
+					}, {
+						"data": ["17465", "16552", "18536", "13927", "12357", "14641",
+							"23728", "24109", "9741", "7917", "19793", "10341"
+						],
+						"hasDialog": false,
+						"name": "办件受理量",
+						"type": "bar",
+						"unit": "件"
+					}],
+					"single": true,
+					"style": "{reverseBar:true,barBorderColors:['#19e7ff','#60f290'],barColors:['#3a8be6','#60f290','#032959'],\"rotate\":0,\"barWidth\":10,\"xAxisFontSize\":12,\"gridBottom\":\"15%\",\"gridTop\":\"20%\",grid:{ bottom:\"0%\"},interval:1,axisLabelInterval:1}",
+					"title": "办件受理量/办件办结量趋势",
+					"titleId": "5023",
+					"type": "bar",
+					"xAxis": ["2021-05", "2021-06", "2021-07", "2021-08", "2021-09", "2021-10",
+						"2021-11", "2021-12", "2022-01", "2022-02", "2022-03", "2022-04"
+					]
+				}, {
+					"date": "2022-02-01 00:00:00",
+					"hasDialog": false,
+					"legends": ["平均办结时间", "平均承诺时间"],
+					"series": [{
+						"data": ["5", "6", "8", "7", "5", "4"],
+						"hasDialog": false,
+						"name": "平均办结时间",
+						"type": "line",
+						"unit": "天"
+					}, {
+						"data": ["10.1136", "8.3938", "5.7064", "4.6751", "5.4108",
+							"5.8250"
+						],
+						"hasDialog": false,
+						"name": "平均承诺时间",
+						"type": "line",
+						"unit": "天"
+					}],
+					"single": true,
+					"style": "{legendRight:\"5%\",legendTop:\"15%\",titleShow:true,gridTop:\"30%\",gridRight:\"5%\",noTitle: true,lineColors:['#19e7ff','#ffcd47'],width:750, seriesSymbol: \"circle\" ,singleYAxis:1,areaStyleColor:['#ffcd47','transparent'],smooth:\"true\",rotate:0,interval:0,noTitle:true,titleShow:false,axisLabelInterval:0}",
+					"title": "平均承诺/办结时间趋势",
+					"titleId": "5024",
+					"type": "line",
+					"xAxis": ["2021-09", "2021-10", "2021-11", "2021-12", "2022-01", "2022-02"]
+				}],
+				"hasDialog": false,
+				"secondId": "5011",
+				"tab": "效能监督"
+			}],
+			"firstId": "5001",
+			"hasDialog": false,
+			"name": "效能监督"
+		}, {
+			"data": [{
+				"data": [{
+					"date": "2021-09-30 00:00:00",
+					"hasDialog": false,
+					"series": [{
+						"hasDialog": false,
+						"indexId": "5109",
+						"name": "一次办",
+						"rate": "43",
+						"unit": "件",
+						"value": "387253"
+					}, {
+						"hasDialog": false,
+						"indexId": "5110",
+						"name": "马上办",
+						"rate": "35",
+						"unit": "件",
+						"value": "315206"
+					}, {
+						"hasDialog": false,
+						"indexId": "5111",
+						"name": "网上办",
+						"rate": "15",
+						"unit": "件",
+						"value": "135088"
+					}, {
+						"hasDialog": false,
+						"indexId": "5112",
+						"name": "就近办",
+						"rate": "7",
+						"unit": "件",
+						"value": "63041"
+					}],
+					"single": false,
+					"title": "四办信息",
+					"titleId": "5025",
+					"type": "labelDuo"
+				}, {
+					"hasDialog": false,
+					"legends": ["办件效率得分最高Top10"],
+					"series": [{
+						"data": ["96.8", "94.1", "93.6", "91.2", "88.2", "86.1", "83.5",
+							"81.7", "77.5", "76.3"
+						],
+						"hasDialog": false,
+						"name": "办件效率得分最高Top10",
+						"rateData": [null, null, null, null, null, null, null, null,
+							null, null
+						],
+						"unit": "分"
+					}],
+					"single": true,
+					"style": "{legendsName:'得分',nameFontSize:26,valueFontSize:22,yAxisPadding:[0,0,-11,102],width:600,colors:['#3A8CE7','#08DEE6','#143C60'],rateData:false,gridLeft:'10%',gridRight:\"20%\",rateDataShow:false,bgColors:['#143c61']}",
+					"title": "包头办件效率得分最高Top10",
+					"titleId": "5026",
+					"type": "horizontalBar",
+					"xAxis": ["老年人福利领取", "变更备案", "养老保险", "社会保险", "养老金", "B", "A", "预告登记",
+						"失业登记", "生育登记"
+					]
+				}, {
+					"hasDialog": false,
+					"legends": ["热门事项TOP10办件效率预警"],
+					"series": [{
+						"data": ["96.8", "94.1", "93.6", "91.2", "88.2", "86.1", "83.5",
+							"81.7", "77.5", "76.3"
+						],
+						"hasDialog": false,
+						"name": "热门事项TOP10办件效率预警",
+						"rateData": ["8.5", "8.2", "12.0", "10.7", "8.9", "12.2",
+							"12.5", "10.2", "10.0", "9.2"
+						],
+						"unit": "分"
+					}],
+					"single": true,
+					"style": "{nameTextPadding:[0,0,-11,1020],nameFontSize:26,valueFontSize:22,yAxisPadding:[0,0,-11,102],legendsName:'得分',legendsName2:'占比',width:600,colors:['#FFA729','#FFCC46','#50462B'],bgColors:['#4F4629']}",
+					"title": "包头热门事项TOP10办件效率预警",
+					"titleId": "5027",
+					"type": "horizontalBar",
+					"xAxis": ["老年人福利领取", "变更备案", "养老保险", "社会保险", "养老金", "B", "A", "预告登记",
+						"失业登记", "生育登记"
+					]
+				}],
+				"hasDialog": false,
+				"secondId": "5012",
+				"tab": "四办信息"
+			}],
+			"firstId": "5002",
+			"hasDialog": false,
+			"name": "四办信息"
+		}],
+		"mapId": "5000",
+		"middle": [{
+			"data": [{
+				"data": [{
+					"hasDialog": false,
+					"series": [{
+						"column": ["指标", "地区", "办件受理量", "办件办结量", "办件办结率", "超时办理量"],
+						"data": [
+							["包头市", "包头市件", "5022件", "5022件", "100%", "0件"],
+							["东河区", "东河区件", "744件", "744件", "100%", "0件"],
+							["昆都仑区", "昆都仑区件", "1886件", "1886件", "100%", "0件"],
+							["青山区", "青山区件", "805件", "805件", "100%", "0件"],
+							["石拐区", "石拐区件", "296件", "296件", "100%", "0件"],
+							["白云鄂博矿区", "白云鄂博矿区件", "122件", "122件", "100%", "0件"],
+							["九原区", "九原区件", "612件", "612件", "100%", "0件"],
+							["土默特区", "土默特区件", "224件", "224件", "100%", "0件"],
+							["固阳县", "固阳县件", "167件", "167件", "100%", "0件"],
+							["达尔罕茂名安联合旗", "达尔罕茂名安联合旗件", "166件", "166件", "100%",
+								"0件"]
+						],
+						"labelSeries": [{
+							"hasDialog": false,
+							"name": "中间表格",
+							"value": "10"
+						}, {
+							"hasDialog": false,
+							"name": "中间表格",
+							"value": "10"
+						}, {
+							"hasDialog": false,
+							"name": "中间表格",
+							"value": "10"
+						}, {
+							"hasDialog": false,
+							"name": "中间表格",
+							"value": "10"
+						}, {
+							"hasDialog": false,
+							"name": "中间表格",
+							"value": "10"
+						}]
+					}],
+					"single": false,
+					"title": "中间表格",
+					"titleId": "5028",
+					"type": "tableLabel"
+				}],
+				"hasDialog": false,
+				"secondId": "5013",
+				"tab": "中间表格"
+			}],
+			"firstId": "5003",
+			"hasDialog": false,
+			"name": "中间表格"
+		}, {
+			"data": [{
+				"data": [{
+					"date": "2021-09-30 00:00:00",
+					"hasDialog": false,
+					"series": [{
+						"hasDialog": false,
+						"indexId": "5120",
+						"name": "全年办件满意度",
+						"rate": "99.99",
+						"unit": "件",
+						"value": "1245216"
+					}],
+					"single": false,
+					"title": "全年办件满意度",
+					"titleId": "5029",
+					"type": "labelDuo"
+				}, {
+					"date": "2021-09-30 00:00:00",
+					"hasDialog": false,
+					"series": [{
+						"hasDialog": false,
+						"indexId": "5121",
+						"name": "非常满意",
+						"rate": "94",
+						"unit": "件",
+						"value": "3890"
+					}, {
+						"hasDialog": false,
+						"indexId": "5122",
+						"name": "满意",
+						"rate": "4",
+						"unit": "件",
+						"value": "1241138"
+					}, {
+						"hasDialog": false,
+						"indexId": "5123",
+						"name": "基本满意",
+						"rate": "1",
+						"unit": "件",
+						"value": "152"
+					}, {
+						"hasDialog": false,
+						"indexId": "5124",
+						"name": "不满意",
+						"rate": "0.9",
+						"unit": "件",
+						"value": "0"
+					}, {
+						"hasDialog": false,
+						"indexId": "5125",
+						"name": "非常不满意",
+						"rate": "0.1",
+						"unit": "件",
+						"value": "36"
+					}],
+					"single": false,
+					"title": "不同满意度",
+					"titleId": "5030",
+					"type": "labelDuo"
+				}],
+				"hasDialog": false,
+				"secondId": "5014",
+				"tab": "满意度"
+			}, {
+				"data": [{
+					"date": "2021-09-01 00:00:00",
+					"hasDialog": false,
+					"legends": ["数量", "增速"],
+					"series": [{
+						"data": ["1722", "2421", "2655", "3021", "2698", "3554"],
+						"hasDialog": false,
+						"name": "数量",
+						"type": "bar",
+						"unit": "个"
+					}, {
+						"data": ["10", "12", "15", "10", "22", "7"],
+						"hasDialog": false,
+						"name": "增速",
+						"type": "line",
+						"unit": "%"
+					}],
+					"single": false,
+					"title": "热线趋势",
+					"titleId": "5031",
+					"type": "combination",
+					"xAxis": ["2021-09", "2021-10", "2021-11", "2021-12", "2022-01", "2022-02"]
+				}, {
+					"date": "2021-09-30 00:00:00",
+					"hasDialog": false,
+					"legends": ["经济调节", "市场监管", "社会管理", "公共服务"],
+					"series": [{
+						"data": [{
+							"hasDialog": false,
+							"indexId": "5128",
+							"name": "经济调节",
+							"rate": "10",
+							"unit": "个",
+							"value": "200"
+						}, {
+							"hasDialog": false,
+							"indexId": "5129",
+							"name": "市场监管",
+							"rate": "25",
+							"unit": "个",
+							"value": "300"
+						}, {
+							"hasDialog": false,
+							"indexId": "5130",
+							"name": "社会管理",
+							"rate": "30",
+							"unit": "个",
+							"value": "400"
+						}, {
+							"hasDialog": false,
+							"indexId": "5131",
+							"name": "公共服务",
+							"rate": "35",
+							"unit": "个",
+							"value": "500"
+						}],
+						"hasDialog": false
+					}],
+					"single": false,
+					"title": "热线类型",
+					"titleId": "5032",
+					"type": "pie"
+				}, {
+					"hasDialog": false,
+					"legends": ["热点诉求TOP10"],
+					"series": [{
+						"data": ["4467", "4322", "3987", "3845", "3605", "3385", "3165",
+							"2945", "2725", "2505"
+						],
+						"hasDialog": false,
+						"name": "热点诉求TOP10",
+						"rateData": ["10.95", "10.60", "9.78", "9.43", "8.84", "8.30",
+							"7.76", "7.22", "6.68", "6.14"
+						],
+						"unit": "个"
+					}],
+					"single": true,
+					"title": "包头热点诉求TOP10",
+					"titleId": "5033",
+					"type": "horizontalBar",
+					"xAxis": ["市容环境", "物业管理", "消费者维权", "出租管理", "交通设施", "卫生防疫", "拖欠工资", "道路改造",
+						"教育管理", "用水"
+					]
+				}],
+				"hasDialog": false,
+				"secondId": "5015",
+				"tab": "12345政务热线统计"
+			}],
+			"firstId": "5004",
+			"hasDialog": false,
+			"name": "中下模块"
+		}],
+		"name": "政务服务",
+		"right": [{
+			"data": [{
+				"data": [{
+					"date": "2021-09-30 00:00:00",
+					"hasDialog": false,
+					"series": [{
+						"hasDialog": false,
+						"indexId": "5150",
+						"name": "未来一周内整体办件受理趋势",
+						"unit": "个",
+						"value": "上升"
+					}],
+					"single": false,
+					"style": "{width:200,noTitle:true}",
+					"title": "未来一周内整体办件受理趋势",
+					"titleId": "5034",
+					"type": "labelDuo"
+				}, {
+					"date": "2021-09-30 00:00:00",
+					"hasDialog": false,
+					"series": [{
+						"hasDialog": false,
+						"indexId": "5151",
+						"name": "未来一周内办件受理高峰日",
+						"unit": "个",
+						"value": "星期四"
+					}],
+					"single": false,
+					"style": "{width:200,noTitle:true}",
+					"title": "未来一周内办件受理高峰日",
+					"titleId": "5035",
+					"type": "labelDuo"
+				}, {
+					"hasDialog": false,
+					"series": [{
+						"column": ["指标", "预测未来一周内办件受理事项TOP10"],
+						"data": [
+							["就业政策法规咨询", "110件"],
+							["失业登记", "109件"],
+							["民政业务咨询", "108件"],
+							["老年人福利补贴", "107件"],
+							["社保卡申领", "106件"],
+							["城乡居民参保登记", "105件"],
+							["社会保险费缴纳", "104件"],
+							["经营性道路客货运输驾驶员从业人员资格证核发", "103件"],
+							["公司（内资）变更（备案）登记", "102件"],
+							["城乡居民医疗保险参保和续保", "101件"]
+						],
+						"labelSeries": [{
+							"hasDialog": false,
+							"name": "预测未来一周内办件受理事项TOP10",
+							"value": "10"
+						}]
+					}],
+					"single": false,
+					"style": "{tableFontSize:\"14px\",width:620}",
+					"title": "预测未来一周内办件受理事项TOP10",
+					"titleId": "5036",
+					"type": "tableLabel"
+				}],
+				"hasDialog": false,
+				"secondId": "5016",
+				"tab": "办件受理数量预测"
+			}],
+			"firstId": "5005",
+			"hasDialog": false,
+			"name": "办件受理数量预测"
+		}, {
+			"data": [{
+				"data": [{
+					"date": "2022-04-27 00:00:00",
+					"hasDialog": false,
+					"legends": ["近30天"],
+					"series": [{
+						"data": ["0", "0", "0", "0", "0", "0", "0", "0", "0", "0", "0",
+							"0", "0", "0", "0", "0", "0", "0", "697", "0", "729",
+							"0", "1724", "0", "1898", "0", "1857", "0", "1807", "0",
+							"1783", "0", "0", "0", "0", "0", "0"
+						],
+						"hasDialog": false,
+						"name": "近30天",
+						"type": "line",
+						"unit": "件"
+					}],
+					"single": true,
+					"style": "{lineStyleWidth:10,lineStyleColor:['#00faff','#52d483'],legendShow:true,legendRight:\"5%\",legendTop:\"15%\",titleShow:false,gridTop:\"10%\",gridLeft:\"5%\",gridRight:\"5%\",gridBottom:\"15%\",noTitle: true,lineColors:['#ffcd47','#4afefe'],width:1250, seriesSymbol: \"circle\" ,singleYAxis:1,areaStyleColor:['#06e2e6','transparent'],smooth:\"true\",interval:0,axisPointer:\"line\"}",
+					"title": "近30天",
+					"titleId": "5037",
+					"type": "line",
+					"xAxis": ["2022-04-27", "2022-04-28", "2022-04-29", "2022-04-30",
+						"2022-05-01", "2022-05-02", "2022-05-03", "2022-05-04",
+						"2022-05-05", "2022-05-06", "2022-05-07", "2022-05-08",
+						"2022-05-09", "2022-05-10", "2022-05-11", "2022-05-12",
+						"2022-05-13", "2022-05-14", "2022-05-14", "2022-05-15",
+						"2022-05-15", "2022-05-16", "2022-05-16", "2022-05-17",
+						"2022-05-17", "2022-05-18", "2022-05-18", "2022-05-19",
+						"2022-05-19", "2022-05-20", "2022-05-20", "2022-05-21",
+						"2022-05-22", "2022-05-23", "2022-05-24", "2022-05-25", "2022-05-26"
+					]
+				}, {
+					"date": "2021-05-01 00:00:00",
+					"hasDialog": false,
+					"legends": ["近12个月"],
+					"series": [{
+						"data": ["4605", "15432", "17458", "12853", "11127", "13576",
+							"22381", "22858", "9146", "7593", "15304", "9354"
+						],
+						"hasDialog": false,
+						"name": "近12个月",
+						"type": "line",
+						"unit": "件"
+					}],
+					"single": true,
+					"style": "{legendShow:true,legendRight:\"5%\",legendTop:\"15%\",titleShow:false,gridTop:\"10%\",gridLeft:\"5%\",gridRight:\"5%\",gridBottom:\"15%\",noTitle: true,lineColors:['#ffcd47','#4afefe'],width:1250, seriesSymbol: \"circle\" ,singleYAxis:1,areaStyleColor:['#06e2e6','transparent'],smooth:\"true\",interval:0}",
+					"title": "近12个月",
+					"titleId": "5038",
+					"type": "line",
+					"xAxis": ["2021-05", "2021-06", "2021-07", "2021-08", "2021-09", "2021-10",
+						"2021-11", "2021-12", "2022-01", "2022-02", "2022-03", "2022-04"
+					]
+				}, {
+					"date": "2021-11-01 00:00:00",
+					"hasDialog": false,
+					"legends": ["近24个月"],
+					"series": [{
+						"data": ["2843", "2834", "2825", "2838", "2828", "2835", "2827",
+							"2839", "2836", "2841", "2832", "2823", "2842", "2833",
+							"2824", "2844", "2829", "2826", "2830", "2845", "2822",
+							"2831", "2840", "2837"
+						],
+						"hasDialog": false,
+						"name": "近24个月",
+						"type": "line",
+						"unit": "件"
+					}],
+					"single": true,
+					"style": "{legendShow:true,legendRight:\"5%\",legendTop:\"15%\",titleShow:false,gridTop:\"10%\",gridLeft:\"5%\",gridRight:\"5%\",gridBottom:\"15%\",noTitle: true,lineColors:['#ffcd47','#4afefe'],width:1250, seriesSymbol: \"circle\" ,singleYAxis:1,areaStyleColor:['#06e2e6','transparent'],smooth:\"true\",interval:0}",
+					"title": "近24个月",
+					"titleId": "5039",
+					"type": "line",
+					"xAxis": ["2020-03", "2020-04", "2020-05", "2020-06", "2020-07", "2020-08",
+						"2020-09", "2020-10", "2020-11", "2020-12", "2021-01", "2021-02",
+						"2021-03", "2021-04", "2021-05", "2021-06", "2021-07", "2021-08",
+						"2021-09", "2021-10", "2021-11", "2021-12", "2022-01", "2022-02"
+					]
+				}],
+				"hasDialog": false,
+				"secondId": "5017",
+				"tab": "办件受理分析折线"
+			}],
+			"firstId": "5006",
+			"hasDialog": false,
+			"name": "办件受理分析"
+		}, {
+			"data": [{
+				"data": [{
+					"date": "2022-05-26 00:00:00",
+					"hasDialog": false,
+					"legends": ["20岁及以下", "21-40岁", "41-60岁", "60-80岁", "80岁以上"],
+					"series": [{
+						"data": [{
+							"hasDialog": false,
+							"indexId": "5200",
+							"name": "20岁及以下",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5200",
+							"name": "20岁及以下",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5201",
+							"name": "21-40岁",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5201",
+							"name": "21-40岁",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5202",
+							"name": "41-60岁",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5202",
+							"name": "41-60岁",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5203",
+							"name": "60-80岁",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5203",
+							"name": "60-80岁",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5204",
+							"name": "80岁以上",
+							"unit": "人",
+							"value": "9354"
+						}, {
+							"hasDialog": false,
+							"indexId": "5204",
+							"name": "80岁以上",
+							"unit": "人",
+							"value": "0"
+						}],
+						"hasDialog": false
+					}],
+					"single": false,
+					"style": "{alwaysShowContent:true,dispatchActionType:'showTip',radius:['35%','55%'],tooltipG:true,titleShow:true,titleY:\"30%\",titleX:\"center\",center:['50%','35%'],gridRight:\"0%\",gridTop:\"20%\",gridLeft:\"20%\",barWidth:20,width:450,seriesSymbol:\"circle\",noTitle:true,legendShow:false,borderShow:true}",
+					"title": "年龄分析",
+					"titleId": "5040",
+					"type": "pie"
+				}, {
+					"date": "2022-05-26 00:00:00",
+					"hasDialog": false,
+					"legends": ["男", "女"],
+					"series": [{
+						"data": ["0", "4823"],
+						"hasDialog": false,
+						"name": "男",
+						"unit": "人"
+					}, {
+						"data": ["0", "4531"],
+						"hasDialog": false,
+						"name": "女",
+						"unit": "人"
+					}],
+					"single": false,
+					"style": "{width:400,yAxisShow:false,noTitle:true}",
+					"title": "男女人数",
+					"titleId": "5041",
+					"type": "plusMinusBar",
+					"xAxis": ["男", "男"]
+				}, {
+					"date": "2022-04-01 00:00:00",
+					"hasDialog": false,
+					"legends": ["有限责任公司", "个体工商户", "个人独资公司", "其他有限责任公司"],
+					"series": [{
+						"data": [{
+							"hasDialog": false,
+							"indexId": "5220",
+							"name": "有限责任公司",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5220",
+							"name": "有限责任公司",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5221",
+							"name": "个体工商户",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5221",
+							"name": "个体工商户",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5222",
+							"name": "个人独资公司",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5222",
+							"name": "个人独资公司",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5223",
+							"name": "其他有限责任公司",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5223",
+							"name": "其他有限责任公司",
+							"unit": "人",
+							"value": "0"
+						}],
+						"hasDialog": false
+					}],
+					"single": false,
+					"style": "{colorList:['#06e2e6','#3aed80','#319056','#ffcd47'],width:250,legendLeft:\"14%\",legendRight:\"0%\",legendTop:\"55%\",radius:['44%','62%'],center:['49%','30%'],noTitle:true,titleShow:true,chartTitle:\"单位类型\",titleX:\"30%\",titleY:\"26%\",legendNameWidth:88,legendFontSize:16,noRate:true,legendPadding:{a:[0,0,0,20]}}",
+					"title": "单位类型",
+					"titleId": "5042",
+					"type": "pie"
+				}, {
+					"date": "2022-04-01 00:00:00",
+					"hasDialog": false,
+					"legends": ["制造业", "建筑业", "农林渔牧业", "批发及零售业", "住宿和餐饮业", "租赁和商务服务业",
+						"科学研究和技术服务业", "居民服务、修理和其他服务业"
+					],
+					"series": [{
+						"data": [{
+							"hasDialog": false,
+							"indexId": "5230",
+							"name": "制造业",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5230",
+							"name": "制造业",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5231",
+							"name": "建筑业",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5231",
+							"name": "建筑业",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5232",
+							"name": "农林渔牧业",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5232",
+							"name": "农林渔牧业",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5233",
+							"name": "批发及零售业",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5233",
+							"name": "批发及零售业",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5234",
+							"name": "住宿和餐饮业",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5234",
+							"name": "住宿和餐饮业",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5235",
+							"name": "租赁和商务服务业",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5235",
+							"name": "租赁和商务服务业",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5236",
+							"name": "科学研究和技术服务业",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5236",
+							"name": "科学研究和技术服务业",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5237",
+							"name": "居民服务、修理和其他服务业",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5237",
+							"name": "居民服务、修理和其他服务业",
+							"unit": "人",
+							"value": "0"
+						}],
+						"hasDialog": false
+					}],
+					"single": false,
+					"style": "{labelNameTooLong:true,colorList:['#06e2e6','#3a8be6','#4853e2','#09388f','#727cff'],width:250,legendLeft:\"5%\",legendRight:\"0%\",legendTop:\"55%\",radius:['44%','62%'],center:['49%','30%'],noTitle:true,titleShow:true,chartTitle:\"单位类型\",titleX:\"30%\",titleY:\"26%\",legendNameWidth:88,legendFontSize:16,noRate:true,legendPadding:{a:[0,0,0,50]},legendNamePadding:[-10,0,0,0],legendNamePadding2:[-20,0,0,0]}",
+					"title": "行业类型",
+					"titleId": "5043",
+					"type": "pie"
+				}, {
+					"date": "2022-04-01 00:00:00",
+					"hasDialog": false,
+					"legends": ["存续", "吊销未注销", "吊销已注销", "注销"],
+					"series": [{
+						"data": [{
+							"hasDialog": false,
+							"indexId": "5240",
+							"name": "存续",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5240",
+							"name": "存续",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5241",
+							"name": "吊销未注销",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5241",
+							"name": "吊销未注销",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5242",
+							"name": "吊销已注销",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5242",
+							"name": "吊销已注销",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5243",
+							"name": "注销",
+							"unit": "人",
+							"value": "0"
+						}, {
+							"hasDialog": false,
+							"indexId": "5243",
+							"name": "注销",
+							"unit": "人",
+							"value": "0"
+						}],
+						"hasDialog": false
+					}],
+					"single": false,
+					"style": "{colorList:['#fff49a','#ffcd47','#fe7d29','#ff4949'],width:250,legendLeft:\"14%\",legendRight:\"0%\",legendTop:\"55%\",radius:['44%','62%'],center:['49%','30%'],noTitle:true,titleShow:true,chartTitle:\"单位类型\",titleX:\"30%\",titleY:\"26%\",legendNameWidth:88,legendFontSize:16,noRate:true,legendPadding:[0,0,0,20]}",
+					"title": "单位状态",
+					"titleId": "5044",
+					"type": "pie"
+				}],
+				"hasDialog": false,
+				"secondId": "5018",
+				"tab": "办件分析详细信息"
+			}],
+			"firstId": "5007",
+			"hasDialog": false,
+			"name": "办件受理分析详情"
+		}]
+	},
+	"message": "成功!"
+}

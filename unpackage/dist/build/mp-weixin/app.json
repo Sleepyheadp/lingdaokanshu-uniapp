@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/index/index",
+    "pages/macro/index",
+    "pages/industrial/index",
+    "pages/investment/index",
+    "pages/technology/index",
+    "pages/business/index",
+    "pages/traffic/index",
+    "pages/Rural-revitalization/index",
+    "pages/livelihood/index",
+    "pages/society/index",
+    "pages/cultural/index",
+    "pages/ecology/index",
+    "pages/governmentService/index"
+  ],
+  "subPackages": [
+    {
+      "root": "mypackage",
+      "pages": [
+        "pages/logsitics/index"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "申请地址信息"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

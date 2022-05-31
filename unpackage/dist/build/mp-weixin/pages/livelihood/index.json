@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "民生服务",
+  "usingComponents": {
+    "livelihood-practical": "/pages/livelihood/livelihood-practical",
+    "civil-service": "/pages/livelihood/civil-service",
+    "employment": "/pages/livelihood/employment",
+    "education": "/pages/livelihood/education",
+    "medical": "/pages/livelihood/medical",
+    "culture": "/pages/livelihood/culture",
+    "business": "/pages/livelihood/business",
+    "city-education": "/pages/livelihood/city-education"
+  }
+}

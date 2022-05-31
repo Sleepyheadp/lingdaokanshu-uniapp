@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "生态环保",
+  "usingComponents": {
+    "ecology-construction": "/pages/ecology/ecology-construction",
+    "energy-conservation": "/pages/ecology/energy-conservation",
+    "environmental-quality": "/pages/ecology/environmental-quality",
+    "infrastructure": "/pages/ecology/infrastructure"
+  }
+}

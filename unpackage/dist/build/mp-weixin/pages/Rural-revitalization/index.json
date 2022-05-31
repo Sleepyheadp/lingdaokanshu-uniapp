@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "乡村振兴",
+  "usingComponents": {
+    "compulsory-education": "/pages/Rural-revitalization/compulsory-education",
+    "preschool-education": "/pages/Rural-revitalization/Poverty-alleviation",
+    "high-school-education": "/pages/Rural-revitalization/public-service",
+    "presonnel1": "/pages/Rural-revitalization/personnel",
+    "infrastructure": "/pages/Rural-revitalization/infrastructure",
+    "ecologically": "/pages/Rural-revitalization/Ecologically-livable",
+    "ruralcivilization": "/pages/Rural-revitalization/Rural-civilization",
+    "ruralgovernance": "/pages/Rural-revitalization/Rural-governance"
+  }
+}

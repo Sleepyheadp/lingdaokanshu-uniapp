@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/Rural-revitalization/Rural-governance"],{1854:function(t,n,e){"use strict";e.r(n);var i=e("c15e"),a=e("e43c");for(var r in a)"default"!==r&&function(t){e.d(n,t,(function(){return a[t]}))}(r);e("8989");var o,u=e("f0c5"),c=Object(u["a"])(a["default"],i["b"],i["c"],!1,null,"73408746",null,!1,i["a"],o);n["default"]=c.exports},"3d39":function(t,n,e){},8989:function(t,n,e){"use strict";var i=e("3d39"),a=e.n(i);a.a},c15e:function(t,n,e){"use strict";var i;e.d(n,"b",(function(){return a})),e.d(n,"c",(function(){return r})),e.d(n,"a",(function(){return i}));var a=function(){var t=this,n=t.$createElement;t._self._c},r=[]},e43c:function(t,n,e){"use strict";e.r(n);var i=e("f35f"),a=e.n(i);for(var r in i)"default"!==r&&function(t){e.d(n,t,(function(){return i[t]}))}(r);n["default"]=a.a},f35f:function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var i=e("2116f"),a=e("bad0"),r={props:{Poverty:{}},data:function(){return{}},mounted:function(){this.initWin()},methods:{initWin:function(){var t=this,n=[];this.Poverty.goalsAchieved2.data.xaxis.forEach((function(t){t=t.split("目标完成率")[0],n.push(t)})),this.Poverty.goalsAchieved2.data.gridLeft=(0,a.remToPx)(this.changeWithWidth(-610,-638,-620)/75),this.Poverty.goalsAchieved2.data.xaxis=n,setTimeout((function(){(0,i.horizontalBarsruarl2)("Revitaliza",t.Poverty.goalsAchieved2.data)}),500)},changeWithWidth:function(t,n,e){var i=0,a=document.body.clientWidth;return document.body.clientWidth,i=a<400?t:a<=750?t+(a-400)*(n-t)/350:a<1080?n+(a-750)*(e-n)/330:e,i}}};n.default=r}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/Rural-revitalization/Rural-governance-create-component',
+    {
+        'pages/Rural-revitalization/Rural-governance-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("1854"))
+        })
+    },
+    [['pages/Rural-revitalization/Rural-governance-create-component']]
+]);

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "文化旅游",
+  "usingComponents": {
+    "cultural": "/pages/cultural/cultural",
+    "travel": "/pages/cultural/travel"
+  }
+}

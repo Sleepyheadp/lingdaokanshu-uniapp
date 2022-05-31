@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "社会保障",
+  "usingComponents": {
+    "housing-security": "/pages/society/housing-security",
+    "fertility-security": "/pages/society/fertility-security",
+    "industrial-security": "/pages/society/industrial-security",
+    "unemployment-security": "/pages/society/unemployment-security",
+    "medical-security": "/pages/society/medical-security",
+    "old-security": "/pages/society/old-security",
+    "overall-situation": "/pages/society/overall-situation"
+  }
+}

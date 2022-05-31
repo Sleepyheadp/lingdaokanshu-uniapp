@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "营商环境",
+  "usingComponents": {
+    "business-score": "/pages/business/business-score"
+  }
+}

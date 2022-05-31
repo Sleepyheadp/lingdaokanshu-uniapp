@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "政务服务",
+  "usingComponents": {
+    "efficiency-supervision": "/pages/governmentService/efficiency-supervision",
+    "agriculture-inf": "/pages/governmentService/agricultureG"
+  }
+}

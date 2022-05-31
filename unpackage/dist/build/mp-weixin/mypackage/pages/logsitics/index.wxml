@@ -1,0 +1,1 @@
+<view class="map-wrapper" style="width:300px;height:400px;"><map class="map1" style="height:400px;" name="map1" id="map1" longitude="{{lng}}" latitude="{{lat}}" scale="{{16}}"></map><view>{{''+this.socketData+''}}</view></view>
